@@ -5,3 +5,7 @@ npm-debug.log
 tmp
 Resources
 !Resources/.gitignore
+*.swp
+.settings
+.fastdev.lock
+*.pyc

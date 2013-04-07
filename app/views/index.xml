@@ -1,5 +1,20 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+  <Window id="mainWindow">
+    <ImageView id="logo" />
+    <Label>Hackathons</Label>
+    <View id="mainNav">
+      <View class="navButton">
+        <ImageView class="navImage" />
+        <Label>Nearby</Label>
+      </View>
+      <View class="navButton">
+        <ImageView class="navImage" />
+        <Label>Happening</Label>
+      </View>
+      <View class="navButton">
+        <ImageView class="navImage" />
+        <Label>Past</Label>
+      </View>
+    </View>
+  </Window>
 </Alloy>

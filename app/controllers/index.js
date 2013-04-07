@@ -3,3 +3,4 @@ function doClick(e) {
 }
 
 $.index.open();
+console.log($.label.text);
