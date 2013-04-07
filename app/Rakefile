@@ -4,7 +4,7 @@ task :default => [:clean] do
   begin
     sh 'alloy compile'
     sh 'alloy run'
-    sh 'touch ' + File.dirname(__FILE__) + '/../Resources/.gitkeep'
+    sh 'touch ' + File.dirname(__FILE__) + '/../Resources/.gitignore'
   rescue
     puts '======================================================'
     puts '                       Failed                         '
@@ -16,7 +16,7 @@ task :andy do
   begin
     sh 'alloy compile --config platform=android'
     sh 'alloy run ../ android'
-    sh 'touch ' + File.dirname(__FILE__) + '/../Resources/.gitkeep'
+    sh 'touch ' + File.dirname(__FILE__) + '/../Resources/.gitignore'
   rescue
     puts '======================================================'
     puts '                       Failed                         '
