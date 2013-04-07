@@ -17,9 +17,9 @@ module.exports = (function(request) {
 });
 
 /*
- * EXAMPLE: 
+ * EXAMPLE:
  *  request({
- *    method: 'GET',
+ *    method: 'POST',
  *    url: 'hackathons',
  *    parameters : { 'yolo': '420swag' },
  *    callback: function(err, response) {
