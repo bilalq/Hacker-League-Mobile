@@ -23,6 +23,9 @@
   width: Ti.UI.FILL,
   left: '1%'
 },
+"#hackathon": {
+  layout: 'vertical',
+},
 ".navButton": {
   height: Ti.UI.SIZE,
   layout: 'vertical',
