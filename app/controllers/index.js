@@ -1,9 +1,8 @@
 $.mainWindow.open();
 
-// var happeningWindow = Alloy.createController('happening').getView();
-
 var openHappeningWindow = function() {
-  // happeningWindow.open();
+   var happeningWindow = Alloy.createController('happening').getView();
+   happeningWindow.open();
 };
 
 var openNearbyWindow = function() {
