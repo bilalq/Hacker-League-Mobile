@@ -1,15 +1,17 @@
-var HL = require('hackerleague');
-
-HL.getHackathons(function(){console.log("DONE");});
 $.mainWindow.open();
 
-var hl = require('hackerleague');
+// var happeningWindow = Alloy.createController('happening').getView();
+// var nearbyWindow = Alloy.createController('nearby').getView();
+var pastWindow = Alloy.createController('past').getView();
 
-hl.getHackathons(function(response) {
-  console.log(response[0]);
-});
+var openHappeningWindow = function() {
+  // happeningWindow.open();
+};
 
-setTimeout(function() {
-  var hackthons = Alloy.createController('hackathons').getView();
-  hackathons.open():
-}, 1000);
+var openNearbyWindow = function() {
+  // nearbyWindow.open();
+};
+
+var openPastWindow = function() {
+  pastWindow.open();
+};
