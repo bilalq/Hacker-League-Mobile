@@ -1,3 +1,9 @@
-".container": {
-	backgroundColor: "white"
-}
+"#hackathon": {
+  //backgroundImage: 'images/box.png'
+},
+"#name": {
+},
+"#location": {
+},
+"#dateRange": {
+},
