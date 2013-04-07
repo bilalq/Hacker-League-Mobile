@@ -7,6 +7,9 @@
   zIndex: 99
 },
 "Window": {
+  layout: 'vertical',
+  backgroundImage: '/images/bgnoise.gif',
+  navBarHidden: true,
   width: Ti.UI.FILL,
-  height: Ti.UI.FILL
+  height: Ti.UI.FILL,
 }
