@@ -1,0 +1,6 @@
+<Alloy>
+  <Window id="hackathonsWindow">
+    <TableView id="hackathonsList">
+    </TableView>
+  </Window>
+</Alloy>

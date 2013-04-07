@@ -3,10 +3,7 @@ var request = require('request');
 exports.getHackathons = (function(callback) {
   request({
     method: 'GET',
-    url: 'hackathons.json',
-    parameters: {
-      'limit' : 100000
-    },
+    url: 'hackathons.json?limit=1000',
     callback: function(err, response) {
       console.log(response.responseText);
       callback(response.responseData);

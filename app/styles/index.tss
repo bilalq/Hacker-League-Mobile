@@ -3,15 +3,28 @@
   backgroundImage: '/images/bgnoise.gif',
   width: Ti.UI.FILL,
   height: Ti.UI.FILL,
-  navBarHidden: true
+  navBarHidden: true,
 },
 "#logo": {
   image: '/images/logo.png',
   top: '5%',
 },
+"#brand": {
+  image: '/images/brand.png',
+  width: '80%',
+},
+"#mainView": {
+  layout: 'vertical',
+  top: '5%',
+},
 "#mainNav": {
-  top: '5%'
+  layout: 'horizontal',
+  height: Ti.UI.SIZE,
+  width: Ti.UI.FILL,
 },
 ".navButton": {
-  top: '5%'
-}
+  height: Ti.UI.SIZE,
+  layout: 'vertical',
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  width: '33.3333333333333333333333%',
+},
