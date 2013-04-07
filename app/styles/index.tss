@@ -1,0 +1,17 @@
+"#mainWindow": {
+  layout: 'vertical',
+  backgroundImage: '/images/bgnoise.gif',
+  width: Ti.UI.FILL,
+  height: Ti.UI.FILL,
+  navBarHidden: true
+},
+"#logo": {
+  image: '/images/logo.png',
+  top: '5%',
+},
+"#mainNav": {
+  top: '5%'
+},
+".navButton": {
+  top: '5%'
+}
