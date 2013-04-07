@@ -1,5 +1,5 @@
 "#logo": {
-  image: '/images/logo.png',
+  image: '/images/logo@2x.png',
   top: '5%',
 },
 "#brand": {
@@ -9,12 +9,19 @@
 },
 "#mainView": {
   layout: 'vertical',
-  top: '5%',
+  top: '15%',
 },
+".h2[platform=android]: {
+  font: {
+    fontSize: '12pt',
+    fontWeight: 'bold'
+  }
+}
 "#mainNav": {
   layout: 'horizontal',
   height: Ti.UI.SIZE,
   width: Ti.UI.FILL,
+  left: '1%'
 },
 "#hackathon": {
   layout: 'vertical',

@@ -3,18 +3,18 @@
     <ImageView id="logo" />
     <ImageView id="brand" />
     <View id="mainView">
-      <Label>Hackathons</Label>
+      <Label class="h2">Hackathons</Label>
       <View id="mainNav">
         <View class="navButton" onClick="openHappeningWindow">
-          <ImageView class="navImage" image="/images/happening.png" onClick="openHappeningWindow" />
+          <ImageView class="navImage" image="/images/happening@2x.png" onClick="openHappeningWindow" />
           <Label>Happening</Label>
         </View>
         <View class="navButton" onClick="openNearbyWindow">
-          <ImageView class="navImage" image="/images/nearby.png" onClick="openNearbyWindow" />
+          <ImageView class="navImage" image="/images/nearby@2x.png" onClick="openNearbyWindow" />
           <Label>Nearby</Label>
         </View>
         <View class="navButton" onClick="openPastWindow">
-          <ImageView class="navImage" image="/images/past.png" onClick="openPastWindow" />
+          <ImageView class="navImage" image="/images/past@2x.png" onClick="openPastWindow" />
           <Label>Past</Label>
         </View>
       </View>
