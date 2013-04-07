@@ -1,9 +1,17 @@
 "#hackathon": {
-  //backgroundImage: 'images/box.png'
+  layout: 'vertical',
+  height: Ti.UI.SIZE,
+  backgroundImage: 'images/box.png',
+  width: Ti.UI.FILL,
+  height: '100dp',
+  top: '20dp',
 },
 "#name": {
+  height: Ti.UI.SIZE,
 },
 "#location": {
+  height: Ti.UI.SIZE,
 },
 "#dateRange": {
+  height: Ti.UI.SIZE,
 },
