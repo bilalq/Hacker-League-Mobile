@@ -1,7 +1,5 @@
 $.mainWindow.open();
 
-// var happeningWindow = Alloy.createController('happening').getView();
-
 var openHappeningWindow = function() {
   var nearbyWindow = Alloy.createController('hackathonDetail').getView();
    nearbyWindow.open();

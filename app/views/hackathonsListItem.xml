@@ -1,6 +1,0 @@
-<Alloy>
-  <TableViewRow>
-    <Label id="name" /> 
-    <Label id="dateRange" />
-  </TableViewRow>
-</Alloy>

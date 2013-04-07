@@ -1,9 +1,7 @@
 <Alloy>
 
   <Window id="hackathonsWindow">
-
-    <TableView id="hackathonsTable">
-    </TableView>
+    <ScrollView id="hackathons" />
   </Window>
 
 </Alloy>
