@@ -1,0 +1,10 @@
+<Alloy>
+  <Window id="hackathonDetailPageWindow">
+    <View id="mainView">
+      <ImageView class="hackathonLogo" image="{logo}" />
+      <Label text="{name}" />
+      <Label text="{start_time} - {end_time}" />
+      <Label text="{body}" />
+    </View>
+  </Window>
+</Alloy>

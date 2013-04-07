@@ -1,0 +1,8 @@
+<Alloy>
+  <Window id="hackathonDetailWindow">
+    <View id="mainView">
+      <ImageView id="hackathonLogo" />
+      <Label id="name" />
+    </View>
+  </Window>
+</Alloy>
