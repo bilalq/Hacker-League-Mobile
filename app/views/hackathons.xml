@@ -1,0 +1,14 @@
+<Alloy>
+
+  <Collection src="hackathons" id="hackathonsId" instance="true" />
+
+  <Window id="hackathonsWindow">
+    <TableView id="hackathonsTable">
+      <TableViewRow class="row">
+        <Label class="rowTitle" text="{title}"/>
+        <ImageView class="rowImage" image="{image}"title/>
+      </TableViewRow>
+    </TableView>
+  </Window>
+
+</Alloy>
