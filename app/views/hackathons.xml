@@ -1,6 +1,14 @@
 <Alloy>
+
+  <Collection src="hackathons" id="hackathonsId" instance="true" />
+
   <Window id="hackathonsWindow">
-    <TableView id="hackathonsList">
+    <TableView id="hackathonsTable">
+      <TableViewRow class="row" hackathonId="{id}">
+        <Label class="rowName" text="{name}"/>
+        <Label class="rowState" text="{state}" />
+      </TableViewRow>
     </TableView>
   </Window>
+
 </Alloy>
