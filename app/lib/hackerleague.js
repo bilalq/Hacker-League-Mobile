@@ -5,7 +5,6 @@ exports.getHackathons = (function(callback) {
     method: 'GET',
     url: 'hackathons.json?limit=1000',
     callback: function(err, response) {
-      console.log(response.responseText);
       callback(response.responseData);
     },
   });
