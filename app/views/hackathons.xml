@@ -1,6 +1,7 @@
 <Alloy>
 
   <Window id="hackathonsWindow">
+
     <TableView id="hackathonsTable">
     </TableView>
   </Window>

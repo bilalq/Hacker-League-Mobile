@@ -28,4 +28,3 @@ hackerleague.getHackathons(function(err, response) {
   $.hackathonsTable.data = tableData;
 
 });
-
