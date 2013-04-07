@@ -13,3 +13,10 @@
   width: Ti.UI.FILL,
   height: Ti.UI.FILL,
 }
+"Label[platform=android]": {
+  color: '#222222',
+  font: {
+    fontSize: '10pt'
+  }
+
+}
