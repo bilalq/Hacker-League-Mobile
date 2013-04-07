@@ -1,20 +1,20 @@
-module.exports = function(request) {
+module.exports = (function(request) {
 
-  var base_url = "https://www.hackerleague.org/api/v1/';
+  var base_url = 'https://www.hackerleague.org/api/v1/';
 
-  // Create client to open connection and send request
   var xhr = Ti.Network.createHTTPClient({
     onload: function(e) {
       request.callback(null, this);
     },
     onerror: function(e) {
-      request.callback(this, null);
+      request.callback(this);
     },
     timeout: 5000
   });
+
   xhr.open(request.method, base_url + request.url);
   xhr.send(request.parameters);
-};
+});
 
 /*
  * EXAMPLE: 
