@@ -11,12 +11,12 @@
   layout: 'vertical',
   top: '15%',
 },
-".h2[platform=android]: {
+".h2[platform=android]": {
   font: {
     fontSize: '12pt',
     fontWeight: 'bold'
   }
-}
+},
 "#mainNav": {
   layout: 'horizontal',
   height: Ti.UI.SIZE,
