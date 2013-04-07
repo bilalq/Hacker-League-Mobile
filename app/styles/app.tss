@@ -1,0 +1,12 @@
+"ScrollView": {
+  layout: 'vertical',
+  contentHeight: 'auto',
+  contentWidth: '100%',
+  scrollType: 'vertical',
+  opacity: 1,
+  zIndex: 99
+},
+"Window": {
+  width: Ti.UI.FILL,
+  height: Ti.UI.FILL
+}
