@@ -5,16 +5,16 @@
     <View id="mainView">
       <Label>Hackathons</Label>
       <View id="mainNav">
-        <View class="navButton">
-          <ImageView class="navImage" image="/images/happening.png" />
+        <View class="navButton" onClick="openHappeningWindow">
+          <ImageView class="navImage" image="/images/happening.png" onClick="openHappeningWindow" />
           <Label>Happening</Label>
         </View>
-        <View class="navButton">
-          <ImageView class="navImage" image="/images/nearby.png" />
+        <View class="navButton" onClick="openNearbyWindow">
+          <ImageView class="navImage" image="/images/nearby.png" onClick="openNearbyWindow" />
           <Label>Nearby</Label>
         </View>
-        <View class="navButton">
-          <ImageView class="navImage" image="/images/past.png" />
+        <View class="navButton" onClick="openPastWindow">
+          <ImageView class="navImage" image="/images/past.png" onClick="openPastWindow" />
           <Label>Past</Label>
         </View>
       </View>
