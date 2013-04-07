@@ -1,13 +1,7 @@
 <Alloy>
 
-  <Collection src="hackathon" id="hackathonId" instance="true" />
-
   <Window id="hackathonsWindow">
     <TableView id="hackathonsTable">
-      <TableViewRow class="row">
-        <!--<Label class="rowName" text="{name}"/>-->
-        <!--<Label class="rowState" text="{state}" />-->
-      </TableViewRow>
     </TableView>
   </Window>
 
