@@ -1,19 +1,22 @@
 <Alloy>
   <Window id="mainWindow">
     <ImageView id="logo" />
-    <Label>Hackathons</Label>
-    <View id="mainNav">
-      <View class="navButton">
-        <ImageView class="navImage" />
-        <Label>Nearby</Label>
-      </View>
-      <View class="navButton">
-        <ImageView class="navImage" />
-        <Label>Happening</Label>
-      </View>
-      <View class="navButton">
-        <ImageView class="navImage" />
-        <Label>Past</Label>
+    <ImageView id="brand" />
+    <View id="mainView">
+      <Label>Hackathons</Label>
+      <View id="mainNav">
+        <View class="navButton">
+          <ImageView class="navImage" image="/images/happening.png" />
+          <Label>Happening</Label>
+        </View>
+        <View class="navButton">
+          <ImageView class="navImage" image="/images/nearby.png" />
+          <Label>Nearby</Label>
+        </View>
+        <View class="navButton">
+          <ImageView class="navImage" image="/images/past.png" />
+          <Label>Past</Label>
+        </View>
       </View>
     </View>
   </Window>
