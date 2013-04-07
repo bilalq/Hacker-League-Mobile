@@ -1,7 +1,7 @@
 $.mainWindow.open();
 
 // var happeningWindow = Alloy.createController('happening').getView();
-// var nearbyWindow = Alloy.createController('nearby').getView();
+var nearbyWindow = Alloy.createController('hackathons').getView();
 var pastWindow = Alloy.createController('past').getView();
 
 var openHappeningWindow = function() {
@@ -9,7 +9,7 @@ var openHappeningWindow = function() {
 };
 
 var openNearbyWindow = function() {
-  // nearbyWindow.open();
+   nearbyWindow.open();
 };
 
 var openPastWindow = function() {

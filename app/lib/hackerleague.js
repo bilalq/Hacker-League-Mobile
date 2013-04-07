@@ -3,9 +3,9 @@ var request = require('request');
 exports.getHackathons = (function(callback) {
   request({
     method: 'GET',
-    url: 'hackathons.json?limit=10',
+    url: 'hackathons.json?limit=2',
     callback: function(err, response) {
-      callback(response.responseData);
+      callback(err, JSON.parse(response.responseText));
     },
   });
 });
@@ -15,7 +15,7 @@ exports.getHacks = (function(hackathonID, callback) {
     method: 'GET',
     url: 'hackathons/'+hackathonID+'/hacks.json',
     callback: function(err, response) {
-      callback(response.responseData);
+      callback(err, JSON.parse(response.responseText));
     },
   });
 });
