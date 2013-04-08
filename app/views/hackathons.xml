@@ -1,7 +1,0 @@
-<Alloy>
-
-  <Window id="hackathonsWindow">
-    <ScrollView id="hackathons" />
-  </Window>
-
-</Alloy>

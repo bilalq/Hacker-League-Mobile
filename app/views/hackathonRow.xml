@@ -1,7 +1,0 @@
-<Alloy>
-	<View id="hackathon">
-    <Label id="name" />
-    <Label id="location" />
-    <Label id="dateRange" />
-	</View>
-</Alloy>
